@@ -1,0 +1,16 @@
+.spinner {
+  width: 8rem;
+  position: relative;
+  border-radius: 50%;
+  left: calc(45% - 2rem);
+  animation: rotate 6s 40 linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

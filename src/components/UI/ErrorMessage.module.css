@@ -1,0 +1,39 @@
+.error-container {
+  width: 90%;
+  margin: 2rem auto;
+  text-align: center;
+  position: fixed;
+}
+
+.error {
+  display: inline-block;
+  vertical-align: middle;
+  width: 4rem;
+  border-radius: 50%;
+  animation: rotate 800ms 40 linear;
+  margin-left: 18vw;
+}
+
+.message {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+  color: rgb(194, 6, 44);
+  font-size: 20px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  33% {
+    transform: rotate(-25deg);
+  }
+
+  66% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-25deg);
+  }
+}
