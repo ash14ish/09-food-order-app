@@ -18,3 +18,29 @@
   background-color: #641e03;
   border-color: #641e03;
 }
+
+@media (max-width: 450px) {
+  .form {
+    margin-left: 2rem;
+  }
+
+  .form button {
+    padding: 0.2rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .form label {
+    font-size: 0.8rem;
+  }
+
+  .form input {
+    height: 1.3rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .form button {
+    padding: 0.2rem 0.6rem;
+    width: 4rem;
+  }
+}

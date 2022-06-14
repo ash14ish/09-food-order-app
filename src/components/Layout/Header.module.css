@@ -27,3 +27,37 @@
   object-fit: cover;
   transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
 }
+
+@media (max-width: 700px) {
+  .header {
+    padding: 1.5rem;
+  }
+
+  .header h1 {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    padding: 1rem;
+    height: 4.6rem;
+  }
+
+  .header h1 {
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .header {
+    height: 4rem;
+    padding: 0.5rem;
+  }
+
+  .header h1 {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+}
