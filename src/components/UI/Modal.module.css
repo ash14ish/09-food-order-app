@@ -50,9 +50,8 @@
 
 @media (max-width: 450px) {
   .modal {
-    top: 10vh;
+    top: 8vh;
     font-size: small;
-    max-height: calc(100vh - 250px);
   }
 }
 
