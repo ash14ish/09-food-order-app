@@ -48,6 +48,12 @@
   }
 }
 
+@media (min-width: 450px) {
+  .modal {
+    top: 15vh;
+  }
+}
+
 @keyframes slide-down {
   from {
     opacity: 0;
