@@ -48,11 +48,12 @@
   }
 }
 
-/* @media (min-width: 450px) {
+@media (min-width: 450px) {
   .modal {
-    top: 15vh;
+    top: 10vh;
+    max-height: calc(100vh - 250px);
   }
-} */
+}
 
 @keyframes slide-down {
   from {
