@@ -45,6 +45,6 @@ Your app is ready to be deployed!
   useCallback()
 - Context API is used for app wide management.
 - React.createPortal() is used to port the element outside of the root element.
-- React.fragment() are used instead of conventional div soup.
+- React.Fragment() are used instead of conventional div soup.
 - React event management and lifting state up.
 - Firebase is used to collect and store the data.
