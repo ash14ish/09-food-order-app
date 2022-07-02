@@ -1,4 +1,4 @@
-# Expense Tracker
+# FOOD ORDER APP
 
 _A react app used to add your favourite meals in your cart, increase their amount and successfully order the meals from your cart. All of these are achieved by using React and other dependencies of react._
 
